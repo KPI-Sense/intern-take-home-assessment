@@ -2,7 +2,7 @@
 
 ### Description
 
-Your day to day at KPI will envolve working with a mass amount of financial data. We ingest data through multiple sources in multiple formats. We use a robust ETL process to extract all that data, transform it into our standard data model, and load it into our data lake. This is an important step because without this process we would not be able to easily and effienctly onboard new clients and display our financial models to them with the data being in a standard format.
+Your day to day at KPI will envolve working with a mass amount of financial data. We ingest data through multiple sources in multiple formats. We use a robust ETL process to extract all that data, transform it into our standard data model, and load it into our data lake. This is an important step because without this process we would not be able to easily and effienctly onboard new clients and display our financial models to them without the data being in a standard format.
 
 For this assessment you will be acting as an ETL developer whose job is to parse a demo company model and display some interesting insights back to the user.
 
@@ -36,6 +36,8 @@ When parsing the data you can ignore the first column and only use the data valu
   That only parses the the data from the excel file after this date and displays the same chart and information.
   
 2) Add forcast plotting in (including with the above 1 time filter). A forcast value is considered to any value in the row whose date is past the current datetime. For example if the current date is June 6th 2019 then a normal value is anything before June 6th 2019 and a forcasted value is anything after June 6th 2019. A forcasted series should be plotted using different colors and labels to indicate that is a forecasted value.
+
+`note when submitting bonus parts the assessment create a new python file name main_bonus_{bonus_number}.py and put all additonal code in here. Leave your origional assessment submission as is.`
 
 ### CodeSubmit
 
