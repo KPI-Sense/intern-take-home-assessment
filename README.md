@@ -44,6 +44,4 @@ When parsing the data you can ignore the first column and only use the data valu
 Please organize, design, test and document your code as if it were
 going into production - then push your changes to a feature branch. After you have pushed your code, you may submit a pull request into master for code review.
 
-All the best and happy coding,
-
-The CodeSubmit Team
+All the best and happy coding
